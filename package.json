@@ -1,0 +1,53 @@
+{
+  "name": "trux",
+  "version": "0.0.0",
+  "description": "Modern Web Application Framework for Node.js",
+  "keywords": [
+    "framework",
+    "platform",
+    "microservices",
+    "ecosystem",
+    "rest",
+    "api",
+    "rails",
+    "grails",
+    "sails",
+    "trails",
+    "trailsjs",
+    "redux",
+    "server",
+    "graphql"
+  ],
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scott-wyatt/trux.git"
+  },
+  "author": "Scott Wyatt <scottwyatt86@gmail.com>",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scott-wyatt/trux/issues"
+  },
+  "dependencies": {
+    "joi": "^13.0.1",
+    "lodash.merge": "^4.6.0",
+    "mkdirp": "^0.5.1",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0"
+  },
+  "engines": {
+    "node": ">= 7.6.0",
+    "npm": ">= 3.10.0"
+  },
+  "publishConfig": {
+    "tag": "next"
+  },
+  "runkitExample": "test/runkitExample.js"
+}
